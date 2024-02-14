@@ -42,11 +42,15 @@ static class Hasher
 
         char[] tokens = [.. input];
 
+        // for each token
         for (int i = 0; i < tokens.Length; i++)
         {
+            // multiply the current hash by the radix base and add the utf-16
+            // value of the current token.
             result = result * radix + tokens[i];
         }
 
+        // wrap result to fit the provided size limit
         return (int)(result % capacity);
 
     }
