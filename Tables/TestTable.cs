@@ -7,6 +7,14 @@ namespace TestProject1;
 
 ///////////////////////////////////////////////////////////////////////////////
 
+/*
+
+`dotnet test` doesn't seem to be finding these tests on my computer.
+I tried moving the actual test code elsewhere and it works fine so I think
+there's some weird problem with my setup, or a really silly, well hidden, typo.
+
+*/
+
 [TestFixture(typeof(OpenHashTable<String>))]
 [TestFixture(typeof(ClosedHashTable<String>))]
 public class TestTable<TTable>
