@@ -17,7 +17,7 @@
     - [Hashing algorithm](Hasher.cs)
     - Using open addressing - [`OpenHashMap`](Tables/OpenHashTable.cs)
     - Using closed addressing - [`ClosedHashMap`](Tables/ClosedHashTable.cs)
-    - [Unit testing](Tables/TestTables.cs)
+    - [Unit testing](Tables/TestTable.cs)
 - Maps
     - [Interface](Maps/IMap.cs)
     - BST Maps
