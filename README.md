@@ -1,5 +1,7 @@
 # CS 240 | Week 5 and 6
 
+[![.NET](https://github.com/thefireflyer/cs240-w5-w6-combined/actions/workflows/dotnet.yml/badge.svg)](https://github.com/thefireflyer/cs240-w5-w6-combined/actions/workflows/dotnet.yml)
+
 | | |
 |-|-|
 | Author | Aidan Beil |
