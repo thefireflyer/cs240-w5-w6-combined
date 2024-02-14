@@ -14,9 +14,10 @@
 ### Organization
 
 - Hash Tables
+    - [Interface](Tables/ITable.cs)
     - [Hashing algorithm](Hasher.cs)
-    - Using open addressing - [`OpenHashMap`](Tables/OpenHashTable.cs)
-    - Using closed addressing - [`ClosedHashMap`](Tables/ClosedHashTable.cs)
+    - Using open addressing - [`OpenHashTable`](Tables/OpenHashTable.cs)
+    - Using closed addressing - [`ClosedHashTable`](Tables/ClosedHashTable.cs)
     - [Unit testing](Tables/TestTable.cs)
 - Maps
     - [Interface](Maps/IMap.cs)
